@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.log {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+.navbar {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+
+}
+
+.nav-list {
+    width: 70%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    white-space: nowrap;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 19px;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav {
+    background-attachment: fixed;
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgb(0, 0, 0, 0.7)url("img/2background\ pizza\ in.jpeg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 100vh;
+
+}
+
+.box-main {
+    display: flex;
+    letter-spacing: normal;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 61%;
+    margin: auto;
+    height: 48%;
+}
+
+.firstHalf {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-big {
+    font-size: 20px;
+
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.btn {
+    white-space: nowrap;
+    padding: 1% 4%;
+    margin: 6% 1%;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 13px;
+    background-color: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    justify-content: space-evenly;
+
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.secRight {
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    max-width: 95%;
+    margin: auto;
+}
+
+.sectionTag {
+    font-size: 35px;
+    padding: 9px;
+}
+
+.sectionTag1 {
+    font-size: 20px;
+    padding: 2px;
+}
+
+.paras {
+    padding: 0, 65px;
+}
+
+.thumbnail {
+    margin-top: 7vh;
+    ;
+}
+
+.thumbnail img {
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.sectionTag {
+    padding: 20px 0px;
+}
+
+.sectionsubTag {
+    font-family: sans-serif;
+}
+
+.contact {
+    background-color: rgb(128, 127, 124);
+    height: 200px;
+    font-size: 25px;
+
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.form {
+    margin: auto;
+    max-width: 500px;
+}
+
+.form input {
+    margin: 7px 0px;
+    padding: 5px 3px;
+    width: 80%;
+    border: 2px solid rgb(131, 89, 89);
+    border-radius: 6px;
+    font-size: 19px;
+}
+
+@media only screen and (max-width:1070px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column
+    }
+
+    .rightnav {
+        text-align: center;
+    }
+
+    #search {
+        width: 100%;
+    }
+}
